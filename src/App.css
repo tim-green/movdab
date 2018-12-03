@@ -10,6 +10,10 @@ body{
   background: rgba(201,55,63,1);
 }
 
+.hidden{
+  display: none;
+}
+
 /*container*/
 .container {
   display: flex;
@@ -52,8 +56,9 @@ h1 #header-bold {
 
 header input {
   border: none;
-  border-bottom: 1px solid #fff;
-  padding: 5px;
+  /*border-bottom: 1px solid #930f5b;*/
+  border-bottom: none;
+  padding: 7px 5px 5px;
   background-color: rgba(0, 0, 0, 0.0);
   width: 400px;
   color: #fff;
@@ -144,9 +149,10 @@ header input {
   padding: 40px 0;
 }
 
+.stats-left{padding-left: 0;}
 .stats-left, .stats-right {
   width: 50%;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 
 .stats-left #first {
@@ -305,12 +311,30 @@ footer a {
   color: #930f5b;
 }
 
-.github {
-  display: flex;
+.poweredbyTMDB{
+  /*display: flex;*/
   align-items: center;
   justify-content: center;
+  width: 7%;
+  margin: 0 auto;
+  padding-top: 12px;
 }
 
-.github img {
-  padding: 0 5px;
+
+@media (max-width: 900px){
+  .poweredbyTMDB{
+  width:  14%;
+  }
+}
+
+@media (max-width: 500px){
+  .poweredbyTMDB{
+  width:  20%;
+  }
+}
+
+@media (max-width: 300px){
+  .poweredbyTMDB{
+  width:  25%;
+  }
 }
