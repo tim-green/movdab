@@ -17,6 +17,23 @@ body{
 a{
   text-decoration: none;
 }
+
+a:hover{
+  color: #930f5b;
+}
+
+.link-home{
+  color: #930f5b;
+}
+
+.link{
+
+}
+
+.external-link{
+
+}
+
 /*container*/
 .container {
   display: flex;
@@ -128,7 +145,7 @@ header input {
   text-transform: uppercase;
   color: #FFF;
   font-weight: 300;
-  padding-bottom: 1vh;
+  padding: 5vh 0 1vh;
 }
 
 .movie-data p {
@@ -149,7 +166,7 @@ header input {
 
 .stats {
   display: flex;
-  padding: 40px 0;
+  padding: 15px 0 40px;
 }
 
 .stats-left{padding-left: 0;}
