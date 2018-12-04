@@ -34,6 +34,10 @@ class MovieData extends Component {
                     <Rater total={10} rating={movie.vote_average} interactive={true}/>
                     <br/><p className="votes"> {movie.vote_average} | 10 &nbsp; ({movie.vote_count} Votes) </p>
                   </div>
+                  <div>
+                  <h4>Official Website</h4>
+                  <a href={movie.homepage} className="link external-link" target="_blank" rel="noopener noreferrer">{movie.homepage}</a>
+                  </div>
                 </div>
                 <div className="stats-right">
                   {movie.budget ?
