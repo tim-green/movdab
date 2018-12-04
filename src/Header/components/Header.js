@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="header-wrapper">
           <div className="title">
             <h1>
-              <a href="http://movies.timgreen.xyz/" className="link-home" target="_self" >MOV<span id="header-bold">DAB</span></a>
+              <a href="http://movies.timgreen.xyz/" className="link-home" target="_self" >MOV<span id="header-bold header-db">DB</span></a>
             </h1>
           </div>
           <div className="search">
