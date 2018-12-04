@@ -8,7 +8,9 @@ class Header extends Component {
       <header>
         <div className="header-wrapper">
           <div className="title">
-            <h1>MOV<span id="header-bold">DAB</span></h1>
+            <h1>
+              <a href="http://movies.timgreen.xyz/" className="link-home" target="_self" >MOV<span id="header-bold">DAB</span></a>
+            </h1>
           </div>
           <div className="search">
             <div><i className="fa fa-search fa-lg"></i></div>
